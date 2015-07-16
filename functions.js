@@ -33,7 +33,7 @@ var sum = function(x, y){
 // Write a function named `avg` that takes 3 parameters
 // and returns the average of those 3 numbers.
 var avg = function(x, y, z){
-  return (x + y + z)/3;
+  return (x + y + z) / 3;
 };
 
 
@@ -60,7 +60,10 @@ var greaterThan = function(x,y){
   }
 };
 
-
+//Also can be done this way
+var greaterThan = function(x,y){
+  return x < y
+};
 
 // Q5
 // Write a function called `greet` that takes a
